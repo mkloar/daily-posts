@@ -22,6 +22,7 @@ export interface Post {
     title: string;
     description: string;
     postUrl: string;
+    readTime?: number;
 }
 
 export interface RedditPost extends Post {
